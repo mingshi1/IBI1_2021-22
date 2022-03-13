@@ -1,3 +1,5 @@
+# Eighth note on 22:49pm 13/3/22, !!!YOU KNOW WHAT!!!!!I succeed just now!I don't know why. But just as I tried like 200 times bofore, which means typing "git push origin master", all of sudden, it work! I'm cheering wildly! 22:49 the number is memorable!!!!! 
+
 # Seventh note on 13/3/22, I found another way to "push", if you can see this message, it proves that I make it.
 
 # Sixth note on 10/3/22, emmmmm I've been trying "push" over 100 times sitll failing... why? I've tried many solutions online. Now I download an app Git and reprogram on it. I can "git push" but can't "git push origin master" It said my permission denied. However my email and name are correct...
