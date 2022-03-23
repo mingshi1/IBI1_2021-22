@@ -33,3 +33,6 @@ if mean > 60:
     print("Congratulations Rob! You made it!")
 else:
     print("Unfortunately, I think Rob needs someone to comfort him now.")
+# From my friend Zhu, HengYu I knew np.average, which is used to get the mean of marks
+import numpy as np
+print(np.average(marks))
