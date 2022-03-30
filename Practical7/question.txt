@@ -1,0 +1,15 @@
+Question:
+ South Korea, Kenya, and Colombia are three countries in different parts of the world,
+but with similar populations. Plot the total number of COVID cases over time in all
+three.
+
+Solution begins at line 99 in the covid.py file.
+
+For the result, I get a plot with the 3 countries' datas, where the blue circle represents the South Korea, the red triangle is the Kenya, the green '+' is the Colombia.
+From the plot, we see that from 2019-12-31 to 2020-02-19, the total cases of South Korea is about 0, form 2020-02-19 to 2020-03-09, its total cases grows sharply to about 8000, then it grows more slowly until 2020-03-31 where the total cases was about 10000.
+For Kenya, the data begins at 2020-03-07, then grows slowly to around 800 at 2020-03-31.
+For Colombia, the data begins at 2020-03-14, keep the value at 0 or so then.
+
+So, the result indicates that although the 3 countries have same population, the total cases of COVTD-19 differ. It's clear showed the pandemic was muc more serious in South Korea at 2020-03-31. While in the Kenya, it was less severe in Kenya, and almost can't be found in Colombia.
+Since the plot only shows the situation before 2020-03-31, when the pandemic haven't spread entirely. The different pandemic may be caused by the distance between the country and the headstream. 
+
