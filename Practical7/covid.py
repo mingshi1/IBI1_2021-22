@@ -86,7 +86,7 @@ china_dates=china_data.date
 plt.ylabel('number of cases')
 plt.xlabel('date')
 plt.title('variation of cases and deaths with dates')
-plt.xticks(china_dates.iloc[0:len(china_dates):9],rotation=20)
+plt.xticks(china_dates.iloc[0:len(china_dates):9],rotation=30,fontsize=8)
 # 'xticks' command shows date selectively, 'rotation' set the angle date rotates
 plt.show()
 ####################################################################################
@@ -113,11 +113,12 @@ plt.plot(SK.date, SK.total_cases, 'bo',)
 plt.plot(K.date, K.total_cases, 'rv',)
 plt.plot(C.date, C.total_cases, 'g+',)
 # '+'/'o'/'v' represents the shape of the point. 'r'/'b'/'g' represent the color. 'r' is red while 'b' is blue.
-china_dates=china_data.date
+dates=SK.date
 plt.ylabel('number of total cases')
 plt.xlabel('date')
 plt.title('total cases of South Korea, Kenya, and Colombia')
 # plt.xticks(SK.iloc[0:len(SK.date):9],rotation=20)
+plt.xticks(dates.iloc[0:len(china_dates):5],rotation=30,fontsize=8)
 # 'xticks' command shows date selectively, 'rotation' set the angle date rotates
 plt.show()
 print('for the figure 3, blue = South_Korea, red = Kenya, green = Colombia')
