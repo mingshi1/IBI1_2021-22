@@ -3,7 +3,7 @@
 # select the gene that can be cut
 # calculate length
 # output
-x=open(input('Please type the fasta file containing initial cDNA here: '))  # input the initial file
+x=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all (1).fa')  # input the initial file
 y=input('Please type the fasta file name that you want to store selected sequence in: ')    # input the store file
 output=open(y,'w')
 output1=open('cut1.fa','w') # cut1.fa and cut2.fa are files to store incomplete change
