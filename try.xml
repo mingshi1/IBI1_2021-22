@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obo>
+  <source>
+    <source_id>/share/godev/goterm/data/go/ontology/gene_ontology_edit.obo</source_id>
+    <source_type>file</source_type>
+    <source_fullpath>/share/godev/goterm/data/go/ontology/gene_ontology_edit.obo</source_fullpath>
+    <source_path>gene_ontology_edit.obo</source_path>
+    <source_md5>c2ea6e5177508f925fcb244fd58ae877</source_md5>
+    <source_mtime>1537513812</source_mtime>
+    <source_parsetime>1553703109</source_parsetime>
+  </source>
+  <header>
+    <format-version>1.2</format-version>
+    <data-version>releases/2018-09-19</data-version>
+    <subsetdef>
+      <id>gocheck_do_not_annotate</id>
+      <name>Term not to be used for direct annotation</name>
+    </subsetdef>
+    <subsetdef>
+      <id>gocheck_do_not_manually_annotate</id>
+      <name>Term not to be used for direct manual annotation</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_agr</id>
+      <name>AGR slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_aspergillus</id>
+      <name>Aspergillus GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_candida</id>
+      <name>Candida GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_chembl</id>
+      <name>ChEMBL protein targets summary</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_generic</id>
+      <name>Generic GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_metagenomics</id>
+      <name>Metagenomics GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_mouse</id>
+      <name>Mouse GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_pir</id>
+      <name>PIR GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_plant</id>
+      <name>Plant GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_pombe</id>
+      <name>Fission yeast GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_synapse</id>
+      <name>synapse GO slim</name>
+    </subsetdef>
+    <subsetdef>
+      <id>goslim_yeast</id>
+      <name>Yeast GO slim</name>
+    </subsetdef>
+    <synonymtypedef>
+      <id>syngo_official_label</id>
+      <name>label approved by the SynGO project</name>
+    </synonymtypedef>
+    <synonymtypedef>
+      <id>systematic_synonym</id>
+      <name>Systematic synonym</name>
+      <scope>EXACT</scope>
+    </synonymtypedef>
+    <default-namespace>gene_ontology</default-namespace>
+    <remark>cvs version: use data-version</remark>
+    <remark>Includes Ontology(OntologyID(Anonymous-39)) [Axioms: 285 Logical Axioms: 285]</remark>
+    <remark>Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/go/never_in_taxon.owl&gt;))) [Axioms: 18 Logical Axioms: 0]</remark>
+    <ontology>go</ontology>
+  </header>
+  <term>
+    <id>001</id>
+  </term>
+  <term>
+    <id>002</id>
+    <is_a>001</is_a>
+  </term>
+  <term>
+    <id>003</id>
+    <is_a>001</is_a>
+  </term>
+  <term>
+    <id>004</id>
+    <is_a>002</is_a>
+  </term>
+  <term>
+    <id>005</id>
+    <is_a>003</is_a>
+  </term>
+  <term>
+    <id>006</id>
+    <is_a>002</is_a>
+  </term>
+  <term>
+    <id>007</id>
+    <is_a>002</is_a>
+    <is_a>003</is_a>
+  </term>
+  <term>
+    <id>008</id>
+    <is_a>003</is_a>
+  </term>
+  <term>
+    <id>009</id>
+    <is_a>005</is_a>
+    <is_a>007</is_a>
+    <is_a>008</is_a>
+  </term>
+</obo>
