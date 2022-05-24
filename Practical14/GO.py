@@ -71,7 +71,7 @@ for term in terms:
         list_translation.append(dic[ids.childNodes[0].data])
     elif 'Translation' in type.childNodes[0].data:
         list_translation.append(dic[ids.childNodes[0].data])
-
+print('translation: ',len(list_translation))
 
 import matplotlib.pyplot as plt
 plt.figure(figsize=(15,6))
