@@ -76,7 +76,8 @@ plt.boxplot(x=china.values,
             showbox=True,
             showcaps=True,
             showfliers=False,
-            notch=False, labels=china.columns, )
+            notch=False, labels=china.columns)
+
 plt.show()
 # from the boxplot, we can confirm that what we know fits with the mean values
 plt.plot(china_data.date, china_data.new_cases, 'bo',)
@@ -87,6 +88,14 @@ plt.ylabel('number of cases')
 plt.xlabel('date')
 plt.title('variation of cases and deaths with dates')
 plt.xticks(china_dates.iloc[0:len(china_dates):9],rotation=30,fontsize=8)
+plt.legend(bbox_to_anchor=(1,1),
+                 loc="upper right",
+                 ncol=1,
+                 mode="None",
+                 borderaxespad=0,
+                 title="red: china new deaths\nblue: china new cases",
+                 shadow=False,
+                 fancybox=True)
 # 'xticks' command shows date selectively, 'rotation' set the angle date rotates
 plt.show()
 ####################################################################################
@@ -120,5 +129,13 @@ plt.title('total cases of South Korea, Kenya, and Colombia')
 # plt.xticks(SK.iloc[0:len(SK.date):9],rotation=20)
 plt.xticks(dates.iloc[0:len(china_dates):5],rotation=30,fontsize=8)
 # 'xticks' command shows date selectively, 'rotation' set the angle date rotates
+plt.legend(bbox_to_anchor=(1,1),
+                 loc="upper right",
+                 ncol=1,
+                 mode="None",
+                 borderaxespad=0,
+                 title="red: Kenya\nblue: South Korea\ngreen: Colombia",
+                 shadow=False,
+                 fancybox=True)
 plt.show()
 print('for the figure 3, blue = South_Korea, red = Kenya, green = Colombia')
