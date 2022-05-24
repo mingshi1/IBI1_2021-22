@@ -69,6 +69,8 @@ for term in terms:
     type=df.getElementsByTagName('defstr')[0]
     if 'translation' in type.childNodes[0].data:
         list_translation.append(dic[ids.childNodes[0].data])
+    elif 'Translation' in type.childNodes[0].data:
+        list_translation.append(dic[ids.childNodes[0].data])
 
 
 import matplotlib.pyplot as plt
@@ -81,13 +83,13 @@ plt.show()
 plt.figure(figsize=(15,6))
 plt.title('Distribution of the translation related genes',fontsize=20)
 plt.ylabel('the number of childNodes')
-plt.boxplot(list_translation, vert=True, whis=1, patch_artist=True, meanline=False, showbox= True, showcaps=True, showfliers=False,notch=False)
+plt.boxplot(list_translation, vert=True, whis=1, patch_artist=True, meanline=False, showbox= True, showcaps=True, showfliers=True,notch=False)
 plt.xticks([1],['translation related gene'],fontsize=10)
 plt.show()
 plt.xticks([1],['translation related genes'],fontsize=10)
 print('whole genes mean: ',np.mean(list))
 print('translation mean: ', np.mean(list_translation))
 if np.mean(list_translation)>=np.mean(list):
-    print('On average, translation related genes have more childeNodes.')
+    print('On average, translation related genes have more childNodes.')
 else:
-    print('On average, the overall genes ontology has more childeNodes.')
+    print('On average, the overall genes ontology has more childNodes.')
