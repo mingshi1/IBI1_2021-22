@@ -1,0 +1,24 @@
+# Eighth note on 22:49pm 13/3/22, !!!YOU KNOW WHAT!!!!!I succeed just now!I don't know why. But just as I tried like 200 times bofore, which means typing "git push origin master", all of sudden, it work! I'm cheering wildly! 22:49 the number is memorable!!!!! 
+
+# Seventh note on 13/3/22, I found another way to "push", if you can see this message, it proves that I make it.
+
+# Sixth note on 10/3/22, emmmmm I've been trying "push" over 100 times sitll failing... why? I've tried many solutions online. Now I download an app Git and reprogram on it. I can "git push" but can't "git push origin master" It said my permission denied. However my email and name are correct...
+
+# Fifth note on 9/3/22, after another hour, I succeed to clone but cannot "push" ... I've been stuck. +_+ Well, I'll go climbing to relax.
+
+# Fourth note on 8/3/22, god...I had spent nearly an hour on "clone" without success.
+
+# Third note on 8/3/22, yes! I can make changes in both directions!!
+
+# Second note from 12/3/22, I managed to get changes on the ZJE server onto GitHub but can I make changes on the website and send them back?
+
+# Note from 12/3/22, I have cloned this repo onto the ZJE server and am now going to attempt to push it back onto GitHub.
+
+This is an example file for reflection in IBI1_2021-2022.
+
+During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
+
+I have also learnt to write careful instructions when communicating online!
+
+In addition, I enjoyed discussing with my friends on the Practical and trying again and again.
+
