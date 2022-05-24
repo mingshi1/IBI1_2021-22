@@ -1,0 +1,5 @@
+After reviewing the formative feedback, three negligence was found.
+First, in practical 4, it was reported that a file was submitted in a wrong directory. To rectify it, I changed the file's location and push again, then I checked all the directories on GitHub to ensure no file was wrongly placed.
+Second, it really surprised me when I found my "practical5" directory was unreadable on GitHub because of a nested git repository. After pushing my "practical5" directory, I checked other directories, confirmed they were readable, and changed their name as required. 
+Third, in practical 6, I noticed that two points were deducted because I did not add titles on my diagram. I recalled that in practical 7, I also forgot to add legends. Therefore, I searched for methods to add legends. With a little modification, I managed to make my original figures clearer.
+After that, I conducted a final revision on my portfolio tasks, ensured all goals in the guidance were accomplished, and submitted my GitHub id.
