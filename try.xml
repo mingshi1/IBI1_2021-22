@@ -103,22 +103,115 @@
     <is_a>003</is_a>
   </term>
   <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
     <id>006</id>
     <is_a>002</is_a>
   </term>
   <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
     <id>007</id>
     <is_a>002</is_a>
     <is_a>003</is_a>
   </term>
   <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
     <id>008</id>
     <is_a>003</is_a>
   </term>
   <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
     <id>009</id>
     <is_a>005</is_a>
     <is_a>007</is_a>
     <is_a>008</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>010</id>
+    <is_a>009</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>011</id>
+    <is_a>010</is_a>
+    <is_a>013</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>012</id>
+    <is_a>010</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>013</id>
+    <is_a>010</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>014</id>
+    <is_a>011</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>015</id>
+    <is_a>013</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>016</id>
+    <is_a>012</is_a>
+    <is_a>010</is_a>
+  </term>
+  <term>
+    <id>017</id>
+    <is_a>016</is_a>
+    <is_a>014</is_a>
+    <def>
+      <defstr>translation</defstr>
+    </def>
+  </term>
+  <term>
+    <id>018</id>
+    <is_a>016</is_a>
+    <is_a>015</is_a>
+    <def>
+      <defstr>translation</defstr>
+    </def>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>019</id>
+    <is_a>011</is_a>
+  </term>
+  <term>
+    <def>
+      <defstr>translate</defstr>
+    </def>
+    <id>020</id>
+    <is_a>009</is_a>
   </term>
 </obo>
